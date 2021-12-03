@@ -1,0 +1,63 @@
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: rgb(33, 2, 172);
+    font-size: 22px;
+  }
+  
+  body {
+    background-image: url(https://wallpaperaccess.com/full/321522.jpg);
+    background-size: cover;
+  }
+
+ h1 {
+   position: absolute;
+   top: 8%;
+   left: 20%;
+   font-size: 60px;
+   color: yellow;
+ }
+
+ h2 {
+  position: absolute;
+  top: 23%;
+  left: 28%;
+  font-size: 30px;
+  color: rgb(212, 0, 255);
+  font-weight: bold;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  padding: 21px 50px;
+  text-align: center;
+  text-decoration: none;
+  left: 71%;
+  color: darkblue;
+  font-size: 25px;
+  background-color: rgb(136, 255, 0);
+  font-weight: bold;
+  border-radius: 5px;
+}
